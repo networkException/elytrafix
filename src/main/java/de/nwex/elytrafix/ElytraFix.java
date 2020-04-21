@@ -2,7 +2,10 @@ package de.nwex.elytrafix;
 
 import de.nwex.elytrafix.util.ConfigManager;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.util.Formatting;
+
+import java.io.File;
 
 public class ElytraFix implements ClientModInitializer
 {
@@ -20,6 +23,11 @@ public class ElytraFix implements ClientModInitializer
     @Override
     public void onInitializeClient()
     {
+        File configDir = new File(FabricLoader.getInstance().getConfigDirectory(), "elytrafix");
+
+        //noinspection ResultOfMethodCallIgnored
+        configDir.mkdirs();
+
         ConfigManager.get();
     }
 }

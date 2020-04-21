@@ -11,7 +11,7 @@ public class Chat
     {
         Text chat = new LiteralText("")
             .append(new LiteralText("[").formatted(ElytraFix.DARK))
-            .append(new LiteralText("networkTools").formatted(ElytraFix.ACCENT))
+            .append(new LiteralText("ElytraFix").formatted(ElytraFix.ACCENT))
             .append(new LiteralText("] ").formatted(ElytraFix.DARK))
             .append(prefix.formatted(ElytraFix.BASE))
             .append(new LiteralText(" > ").formatted(ElytraFix.ACCENT))
@@ -24,7 +24,7 @@ public class Chat
     {
         Text chat = new LiteralText("")
             .append(new LiteralText("[").formatted(ElytraFix.DARK))
-            .append(new LiteralText("networkTools").formatted(ElytraFix.ACCENT))
+            .append(new LiteralText("ElytraFix").formatted(ElytraFix.ACCENT))
             .append(new LiteralText("] ").formatted(ElytraFix.DARK))
             .append(new LiteralText(prefix).formatted(ElytraFix.BASE))
             .append(new LiteralText(" > ").formatted(ElytraFix.ACCENT))
@@ -42,7 +42,7 @@ public class Chat
     {
         Text chat = new LiteralText("")
             .append(new LiteralText("[").formatted(ElytraFix.DARK))
-            .append(new LiteralText("networkTools").formatted(ElytraFix.ACCENT))
+            .append(new LiteralText("ElytraFix").formatted(ElytraFix.ACCENT))
             .append(new LiteralText("] ").formatted(ElytraFix.DARK))
             .append(new LiteralText(prefix).formatted(ElytraFix.WARN))
             .append(new LiteralText(" > ").formatted(ElytraFix.ACCENT))
@@ -60,7 +60,7 @@ public class Chat
     {
         Text chat = new LiteralText("")
             .append(new LiteralText("[").formatted(ElytraFix.DARK))
-            .append(new LiteralText("networkTools").formatted(ElytraFix.ACCENT))
+            .append(new LiteralText("ElytraFix").formatted(ElytraFix.ACCENT))
             .append(new LiteralText("] ").formatted(ElytraFix.DARK))
             .append(prefix.formatted(ElytraFix.ERROR))
             .append(new LiteralText(" > ").formatted(ElytraFix.ACCENT))
@@ -73,7 +73,7 @@ public class Chat
     {
         Text chat = new LiteralText("")
             .append(new LiteralText("[").formatted(ElytraFix.DARK))
-            .append(new LiteralText("networkTools").formatted(ElytraFix.ACCENT))
+            .append(new LiteralText("ElytraFix").formatted(ElytraFix.ACCENT))
             .append(new LiteralText("] ").formatted(ElytraFix.DARK))
             .append(new LiteralText(prefix).formatted(ElytraFix.ERROR))
             .append(new LiteralText(" > ").formatted(ElytraFix.ACCENT))

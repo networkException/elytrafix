@@ -12,7 +12,7 @@ import java.util.List;
 @Mixin(DebugHud.class)
 public class MixinDebugHud
 {
-    @Inject(method = "getLeftText", at = @At("RETURN"))
+    @Inject(method = "getLeftText", at = @At("RETURN"), cancellable = true)
     private void getLeftText(CallbackInfoReturnable<List<String>> ci)
     {
         List<String> leftText = ci.getReturnValue();
