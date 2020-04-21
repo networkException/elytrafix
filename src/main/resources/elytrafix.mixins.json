@@ -1,0 +1,20 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "de.nwex.elytrafix.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "MixinClientCommandC2SPacket",
+        "MixinClientPlayerEntity",
+        "MixinClientPlayNetworkHandler",
+        "MixinEntity",
+        "MixinLivingEntity",
+        "MixinPlayerEntity"
+    ],
+    "client": [
+        "ExampleMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
