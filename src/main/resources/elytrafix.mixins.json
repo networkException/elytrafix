@@ -9,10 +9,8 @@
         "MixinClientPlayNetworkHandler",
         "MixinEntity",
         "MixinLivingEntity",
-        "MixinPlayerEntity"
-    ],
-    "client": [
-        "ExampleMixin"
+        "MixinPlayerEntity",
+        "MixinDebugHud"
     ],
     "injectors": {
         "defaultRequire": 1
